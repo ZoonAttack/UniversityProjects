@@ -1,0 +1,314 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "Camille.Core/3.0.0-nightly-2024-02-17-85cb341f01": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2024-02-17-85cb341f01": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2024-02-17-85cb341f01": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2024-02-17-85cb341f01",
+          "Camille.Enums": "3.0.0-nightly-2024-02-17-85cb341f01",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net7.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Camille.RiotGames.dll": {}
+        }
+      },
+      "LCUSharp/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/LCUSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LCUSharp.dll": {}
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
+      "MingweiSamuel.TokenBucket/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Camille.Core/3.0.0-nightly-2024-02-17-85cb341f01": {
+      "sha512": "y8eGLnfJTscr5amZUGlYlD4a4VeBcJvOqOqbkAoA/qIw9jO8wNq6RyXoTgSmL9RvUy0XGt4eOP+9MXvd3lD0Fw==",
+      "type": "package",
+      "path": "camille.core/3.0.0-nightly-2024-02-17-85cb341f01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Camille.png",
+        "LICENSE-APACHE.txt",
+        "LICENSE-MIT.txt",
+        "LICENSE.txt",
+        "README.md",
+        "camille.core.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512",
+        "camille.core.nuspec",
+        "lib/net45/Camille.Core.dll",
+        "lib/net461/Camille.Core.dll",
+        "lib/net6.0/Camille.Core.dll",
+        "lib/net7.0/Camille.Core.dll",
+        "lib/netcoreapp3.1/Camille.Core.dll",
+        "lib/netstandard1.1/Camille.Core.dll",
+        "lib/netstandard2.1/Camille.Core.dll"
+      ]
+    },
+    "Camille.Enums/3.0.0-nightly-2024-02-17-85cb341f01": {
+      "sha512": "LkifVjAwYt3KLpj3SxjPvFLIMpR3eF9LuguIhw9JE6etFFdptvqc3jL2VteIMvqnOogv8TJciXneUSRdT4TxhA==",
+      "type": "package",
+      "path": "camille.enums/3.0.0-nightly-2024-02-17-85cb341f01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Camille.png",
+        "LICENSE-APACHE.txt",
+        "LICENSE-MIT.txt",
+        "LICENSE.txt",
+        "README.md",
+        "camille.enums.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512",
+        "camille.enums.nuspec",
+        "lib/net45/Camille.Enums.dll",
+        "lib/net461/Camille.Enums.dll",
+        "lib/net6.0/Camille.Enums.dll",
+        "lib/net7.0/Camille.Enums.dll",
+        "lib/netcoreapp3.1/Camille.Enums.dll",
+        "lib/netstandard1.1/Camille.Enums.dll",
+        "lib/netstandard2.1/Camille.Enums.dll"
+      ]
+    },
+    "Camille.RiotGames/3.0.0-nightly-2024-02-17-85cb341f01": {
+      "sha512": "JlJPRh+WqXDvfTpqmrZ7GAZPCfYBX9nFDdNFllOv2dtjjZ9vzu0o2yTJPf5om39ENJp8dfRMpNBtWbw5z95I0w==",
+      "type": "package",
+      "path": "camille.riotgames/3.0.0-nightly-2024-02-17-85cb341f01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Camille.png",
+        "LICENSE-APACHE.txt",
+        "LICENSE-MIT.txt",
+        "LICENSE.txt",
+        "README.md",
+        "camille.riotgames.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512",
+        "camille.riotgames.nuspec",
+        "lib/net45/Camille.RiotGames.dll",
+        "lib/net461/Camille.RiotGames.dll",
+        "lib/net6.0/Camille.RiotGames.dll",
+        "lib/net7.0/Camille.RiotGames.dll",
+        "lib/netcoreapp3.1/Camille.RiotGames.dll",
+        "lib/netstandard1.1/Camille.RiotGames.dll",
+        "lib/netstandard2.1/Camille.RiotGames.dll"
+      ]
+    },
+    "LCUSharp/1.0.1": {
+      "sha512": "za5yBZH8wYIuRycWCGGk0AAPFNFkq5BML/KrgVDxfEcqbYVAdQiR2ZIlv36AakdGFd3WYJ/MPR/0sWC8f84gRQ==",
+      "type": "package",
+      "path": "lcusharp/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lcusharp.1.0.1.nupkg.sha512",
+        "lcusharp.nuspec",
+        "lib/netstandard2.0/LCUSharp.dll"
+      ]
+    },
+    "MingweiSamuel.Camille/2.8.0": {
+      "sha512": "2uM7RcZvkbwmBiLAACOdrm5DKCJF3i/NcneEnFFVwQ+hhwKQRTLudoI3ToEVbsKl532OIl5TC8fNLPgyKBv6Uw==",
+      "type": "package",
+      "path": "mingweisamuel.camille/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Camille.dll",
+        "lib/netcoreapp2.1/Camille.dll",
+        "lib/netcoreapp3.1/Camille.dll",
+        "lib/netstandard1.1/Camille.dll",
+        "lib/netstandard2.1/Camille.dll",
+        "mingweisamuel.camille.2.8.0.nupkg.sha512",
+        "mingweisamuel.camille.nuspec"
+      ]
+    },
+    "MingweiSamuel.TokenBucket/1.0.2": {
+      "sha512": "gD+DrZw+HdKQ5D4NTYSaU6Er58nvClYJIoCOn/+gpKzlA2YBaaDI1xyQC4u1kaQ5b3/Onitif1sBgRfqpbWHTQ==",
+      "type": "package",
+      "path": "mingweisamuel.tokenbucket/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MingweiSamuel.TokenBucket.dll",
+        "lib/net461/MingweiSamuel.TokenBucket.dll",
+        "lib/netstandard1.0/MingweiSamuel.TokenBucket.dll",
+        "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll",
+        "mingweisamuel.tokenbucket.1.0.2.nupkg.sha512",
+        "mingweisamuel.tokenbucket.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "Camille.RiotGames >= 3.0.0-nightly-2024-02-17-85cb341f01",
+      "LCUSharp >= 1.0.1",
+      "MingweiSamuel.Camille >= 2.8.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Important\\TopSecret\\Coding\\C#\\LeagueProject\\LeagueProject.csproj",
+      "projectName": "LeagueProject",
+      "projectPath": "D:\\Important\\TopSecret\\Coding\\C#\\LeagueProject\\LeagueProject.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "D:\\Important\\TopSecret\\Coding\\C#\\LeagueProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "Camille.RiotGames": {
+            "target": "Package",
+            "version": "[3.0.0-nightly-2024-02-17-85cb341f01, )"
+          },
+          "LCUSharp": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "MingweiSamuel.Camille": {
+            "target": "Package",
+            "version": "[2.8.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Camille.RiotGames" Version="3.0.0-nightly-2024-02-17-85cb341f01" />
+    <PackageReference Include="LCUSharp" Version="1.0.1" />
+    <PackageReference Include="MingweiSamuel.Camille" Version="2.8.0" />
+  </ItemGroup>
+
+</Project>

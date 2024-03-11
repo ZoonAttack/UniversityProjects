@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "3TV8Z705r4ZD4ubrv2uLbSbEe8m36xBf3QQXpyby18Qfvpe+NIFkpzLtt+eUwmkxh5eTAeDo4ytZzMRYl0dQmg==",
+  "success": true,
+  "projectFilePath": "D:\\Important\\TopSecret\\Coding\\C#\\LeagueProject\\LeagueProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\camille.core\\3.0.0-nightly-2024-02-17-85cb341f01\\camille.core.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\camille.enums\\3.0.0-nightly-2024-02-17-85cb341f01\\camille.enums.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\camille.riotgames\\3.0.0-nightly-2024-02-17-85cb341f01\\camille.riotgames.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\lcusharp\\1.0.1\\lcusharp.1.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\mingweisamuel.camille\\2.8.0\\mingweisamuel.camille.2.8.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\mingweisamuel.tokenbucket\\1.0.2\\mingweisamuel.tokenbucket.1.0.2.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

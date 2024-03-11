@@ -1,0 +1,141 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "LeagueProject/1.0.0": {
+        "dependencies": {
+          "Camille.RiotGames": "3.0.0-nightly-2024-02-17-85cb341f01",
+          "LCUSharp": "1.0.1",
+          "MingweiSamuel.Camille": "2.8.0"
+        },
+        "runtime": {
+          "LeagueProject.dll": {}
+        }
+      },
+      "Camille.Core/3.0.0-nightly-2024-02-17-85cb341f01": {
+        "runtime": {
+          "lib/net7.0/Camille.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2024-02-17-85cb341f01": {
+        "runtime": {
+          "lib/net7.0/Camille.Enums.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2024-02-17-85cb341f01": {
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2024-02-17-85cb341f01",
+          "Camille.Enums": "3.0.0-nightly-2024-02-17-85cb341f01",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "runtime": {
+          "lib/net7.0/Camille.RiotGames.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "LCUSharp/1.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LCUSharp.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MingweiSamuel.TokenBucket/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LeagueProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Camille.Core/3.0.0-nightly-2024-02-17-85cb341f01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y8eGLnfJTscr5amZUGlYlD4a4VeBcJvOqOqbkAoA/qIw9jO8wNq6RyXoTgSmL9RvUy0XGt4eOP+9MXvd3lD0Fw==",
+      "path": "camille.core/3.0.0-nightly-2024-02-17-85cb341f01",
+      "hashPath": "camille.core.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512"
+    },
+    "Camille.Enums/3.0.0-nightly-2024-02-17-85cb341f01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LkifVjAwYt3KLpj3SxjPvFLIMpR3eF9LuguIhw9JE6etFFdptvqc3jL2VteIMvqnOogv8TJciXneUSRdT4TxhA==",
+      "path": "camille.enums/3.0.0-nightly-2024-02-17-85cb341f01",
+      "hashPath": "camille.enums.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512"
+    },
+    "Camille.RiotGames/3.0.0-nightly-2024-02-17-85cb341f01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JlJPRh+WqXDvfTpqmrZ7GAZPCfYBX9nFDdNFllOv2dtjjZ9vzu0o2yTJPf5om39ENJp8dfRMpNBtWbw5z95I0w==",
+      "path": "camille.riotgames/3.0.0-nightly-2024-02-17-85cb341f01",
+      "hashPath": "camille.riotgames.3.0.0-nightly-2024-02-17-85cb341f01.nupkg.sha512"
+    },
+    "LCUSharp/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-za5yBZH8wYIuRycWCGGk0AAPFNFkq5BML/KrgVDxfEcqbYVAdQiR2ZIlv36AakdGFd3WYJ/MPR/0sWC8f84gRQ==",
+      "path": "lcusharp/1.0.1",
+      "hashPath": "lcusharp.1.0.1.nupkg.sha512"
+    },
+    "MingweiSamuel.Camille/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2uM7RcZvkbwmBiLAACOdrm5DKCJF3i/NcneEnFFVwQ+hhwKQRTLudoI3ToEVbsKl532OIl5TC8fNLPgyKBv6Uw==",
+      "path": "mingweisamuel.camille/2.8.0",
+      "hashPath": "mingweisamuel.camille.2.8.0.nupkg.sha512"
+    },
+    "MingweiSamuel.TokenBucket/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gD+DrZw+HdKQ5D4NTYSaU6Er58nvClYJIoCOn/+gpKzlA2YBaaDI1xyQC4u1kaQ5b3/Onitif1sBgRfqpbWHTQ==",
+      "path": "mingweisamuel.tokenbucket/1.0.2",
+      "hashPath": "mingweisamuel.tokenbucket.1.0.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    }
+  }
+}
