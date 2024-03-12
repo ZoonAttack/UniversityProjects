@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.InstallLog
+   assemblypath = D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.exe
+Installing service WorkMonitor...
+Service WorkMonitor has been successfully installed.
+Creating EventLog source WorkMonitor in log Application...
+Committing assembly 'D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.InstallLog
+   assemblypath = D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.exe

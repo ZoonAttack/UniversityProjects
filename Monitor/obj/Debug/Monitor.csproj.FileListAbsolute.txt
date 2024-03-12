@@ -1,0 +1,45 @@
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\bin\Debug\Monitor.exe.config
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\bin\Debug\Monitor.exe
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\bin\Debug\Monitor.pdb
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\obj\Debug\Monitor.csproj.AssemblyReference.cache
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\obj\Debug\Monitor.csproj.SuggestedBindingRedirects.cache
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\obj\Debug\Monitor.ProjectInstaller.resources
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\obj\Debug\Monitor.csproj.GenerateResource.cache
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\obj\Debug\Monitor.csproj.CoreCompileInputs.cache
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\obj\Debug\Monitor.exe
+D:\Important\Top secret!!!!!!!!!!!!!\University\Year 2\Semester 2\Operating System\Projects\Monitor\obj\Debug\Monitor.pdb
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.exe.config
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.exe
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\Monitor.pdb
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\obj\Debug\Monitor.csproj.AssemblyReference.cache
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\obj\Debug\Monitor.csproj.SuggestedBindingRedirects.cache
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\obj\Debug\Monitor.ProjectInstaller.resources
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\obj\Debug\Monitor.csproj.GenerateResource.cache
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\obj\Debug\Monitor.csproj.CoreCompileInputs.cache
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\obj\Debug\Monitor.exe
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\obj\Debug\Monitor.pdb
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\MailKit.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\MimeKit.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Buffers.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Formats.Asn1.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Memory.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Numerics.Vectors.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.ValueTuple.dll
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\MailKit.pdb
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\MailKit.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\MailKit.dll.config
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\MimeKit.pdb
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\MimeKit.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\MimeKit.dll.config
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Buffers.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Formats.Asn1.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Memory.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Numerics.Vectors.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\bin\Debug\System.ValueTuple.xml
+D:\Important\TopSecret\University\Year2\Semester2\OperatingSystem\Projects\Monitor\obj\Debug\Monitor.csproj.CopyComplete
