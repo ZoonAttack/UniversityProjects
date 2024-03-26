@@ -40,6 +40,8 @@
             LB_connectionStatus = new Label();
             label3 = new Label();
             TB_Username = new TextBox();
+            TB_ClientsList = new TextBox();
+            label4 = new Label();
             GB_ChatBox.SuspendLayout();
             SuspendLayout();
             // 
@@ -98,6 +100,7 @@
             // TB_MessageBox
             // 
             TB_MessageBox.BackColor = Color.White;
+            TB_MessageBox.Font = new Font("OCRB", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TB_MessageBox.ForeColor = SystemColors.WindowText;
             TB_MessageBox.Location = new Point(0, 297);
             TB_MessageBox.Multiline = true;
@@ -174,11 +177,34 @@
             TB_Username.Size = new Size(149, 23);
             TB_Username.TabIndex = 12;
             // 
+            // TB_ClientsList
+            // 
+            TB_ClientsList.Font = new Font("OCRB", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            TB_ClientsList.Location = new Point(12, 122);
+            TB_ClientsList.Multiline = true;
+            TB_ClientsList.Name = "TB_ClientsList";
+            TB_ClientsList.ReadOnly = true;
+            TB_ClientsList.Size = new Size(100, 259);
+            TB_ClientsList.TabIndex = 13;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.CadetBlue;
+            label4.Location = new Point(3, 100);
+            label4.Name = "label4";
+            label4.Size = new Size(50, 19);
+            label4.TabIndex = 14;
+            label4.Text = "Clients";
+            // 
             // ClientHomePage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
+            Controls.Add(TB_ClientsList);
             Controls.Add(TB_Username);
             Controls.Add(label3);
             Controls.Add(LB_connectionStatus);
@@ -211,5 +237,7 @@
         private Label LB_connectionStatus;
         private Label label3;
         private TextBox TB_Username;
+        private TextBox TB_ClientsList;
+        private Label label4;
     }
 }

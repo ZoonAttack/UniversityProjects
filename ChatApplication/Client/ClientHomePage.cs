@@ -51,7 +51,13 @@ namespace ChatApplication.Client
                     do
                     {
                         bytesRead = clientSocket.Receive(buffer);
-                        UpdateUI(Encoding.Unicode.GetString(buffer, 0, bytesRead));
+                        string[] messageReceived = Encoding.Unicode.GetString(buffer, 0, bytesRead).Split('|');
+                        switch (messageReceived[0])
+                        {
+                            case "MESSAGE":
+                                UpdateUI(messageReceived[1]);
+                                break;
+                        }
                     } while (bytesRead > 0);
                 }
             }
@@ -80,6 +86,7 @@ namespace ChatApplication.Client
         private void ClientHomePage_FormClosed(object sender, FormClosedEventArgs e)
         {
             clientSocket.Close();
+            Environment.Exit(0);
         }
         public void UpdateUI(string text)
         {
@@ -94,7 +101,19 @@ namespace ChatApplication.Client
                 TB_ChatBox.AppendText($"{text}{Environment.NewLine}");
             }
         }
-
+        //public void UpdateClientsList(string text)
+        //{
+        //    if (TB_ChatBox.InvokeRequired)
+        //    {
+        //        // If this is not the UI thread, invoke the method on the UI thread
+        //        TB_ClientsList.Invoke(new Action(() => UpdateClientsList(text)));
+        //    }
+        //    else
+        //    {
+        //        // If this is the UI thread, update the UI directly
+        //        TB_ClientsList.AppendText($"{text}{Environment.NewLine}");
+        //    }
+        //}
         private void LBL_Name_Click(object sender, EventArgs e)
         {
 

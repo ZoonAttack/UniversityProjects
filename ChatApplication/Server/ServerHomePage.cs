@@ -70,6 +70,12 @@ namespace ChatApplication.Server
                             case "USERNAME":
                                 client.Name = messageReceived[1];
                                 break;
+                            //case "USERJOINED":
+                            //    OnUserJoined(client.Name);
+                            //    break;
+                            //case "USERLEFT":
+                            //    OnUserLeft();
+                            //    break;
                             default:
                                 MessageBox.Show("Something went wrong..");
                                 break;
@@ -95,12 +101,23 @@ namespace ChatApplication.Server
                 if (client == sender && client.Name is not null)
                 {
                     string senderMessage = message.Replace(sender.Name, "me");
-                    client.Socket.Send(Encoding.Unicode.GetBytes(senderMessage));
+                    client.Socket.Send(Encoding.Unicode.GetBytes("MESSAGE|"+senderMessage));
                 }
                 else
-                    client.Socket.Send(Encoding.Unicode.GetBytes(message));
+                    client.Socket.Send(Encoding.Unicode.GetBytes("MESSAGE|" + message));
                 //MessageBox.Show("From server: " + message);
             }
+        }
+        private void OnUserJoined(string name)
+        {
+            foreach (var client in clients)
+            {
+                client.Socket.Send(Encoding.Unicode.GetBytes($"UPDATELIST|{name}"));
+            }
+        }
+        private void OnUserLeft()
+        {
+
         }
 
     }
