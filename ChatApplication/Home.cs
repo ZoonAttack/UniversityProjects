@@ -19,7 +19,14 @@ namespace ChatApplication
 
         private void BTN_Client_Click(object sender, EventArgs e)
         {
-            clientHomePage.Show();
+            try
+            {
+                clientHomePage.Show();
+            }
+            catch(Exception ex)
+            {
+                Environment.Exit(0);
+            }
             //this.Close();
         }
     }

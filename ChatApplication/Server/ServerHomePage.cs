@@ -42,52 +42,63 @@ namespace ChatApplication.Server
 
                 Client.Client client = new Client.Client(number, clientSocket);
                 clients.Add(client);
-                OnReceiveMessage($"Client({client.Id}) has joined the chat!!");
                 Thread clientThread = new Thread(() => clientConnection(client));
                 clientThread.Start();
-                number++;
+                BroadcastMessage(client, $"Someone has joined the chat!!");
             }
             serverSocket.Close();
         }
         private void clientConnection(Client.Client client)
         {
+
             try
             {
                 byte[] buffer = new byte[1024];
                 int bytesRead = 0;
                 do
                 {
-                    if (client.Socket.Connected)
+                    if (Utility.SocketConnected(client.Socket))
                     {
                         bytesRead = client.Socket.Receive(buffer);
                         string[] messageReceived = Encoding.Unicode.GetString(buffer, 0, bytesRead).Split('|');
                         //MessageBox.Show(messageReceived[1]);
-                        switch(messageReceived[0])
+                        switch (messageReceived[0])
                         {
                             case "MESSAGE":
-                                OnReceiveMessage($"Client({client.Id}) sent: {messageReceived[1]}");
+                                BroadcastMessage(client, $"({client.Name}) sent: {messageReceived[1]}");
                                 break;
-                            //case "USERNAME":
-                            //    client.Name = messageReceived[1];
-                            //    break;
+                            case "USERNAME":
+                                client.Name = messageReceived[1];
+                                break;
                             default:
                                 MessageBox.Show("Something went wrong..");
                                 break;
                         }
                     }
+                    else 
+                        BroadcastMessage(client, $"({client.Name}) Has disconnected");
+
                 } while (bytesRead > 0);
             }
             catch(Exception ex)
             {
                 client.Socket.Disconnect(true);
+                clients.Remove(client);
+                BroadcastMessage(client, $"({client.Name}) Has disconnected");
             }
         }
-        private void OnReceiveMessage(string message)
+        private void BroadcastMessage(Client.Client sender, string message)
         {
             foreach(var client in clients)
             {
                 //string messageWithNumber = sender.Id + message;
-                client.Socket.Send(Encoding.Unicode.GetBytes(message));
+                if (client == sender && client.Name is not null)
+                {
+                    string senderMessage = message.Replace(sender.Name, "me");
+                    client.Socket.Send(Encoding.Unicode.GetBytes(senderMessage));
+                }
+                else
+                    client.Socket.Send(Encoding.Unicode.GetBytes(message));
                 //MessageBox.Show("From server: " + message);
             }
         }

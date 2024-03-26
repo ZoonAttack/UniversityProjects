@@ -37,7 +37,9 @@
             TB_PortNumber = new TextBox();
             label2 = new Label();
             TB_HostAddress = new TextBox();
-            LBL_Name = new Label();
+            LB_connectionStatus = new Label();
+            label3 = new Label();
+            TB_Username = new TextBox();
             GB_ChatBox.SuspendLayout();
             SuspendLayout();
             // 
@@ -103,6 +105,7 @@
             TB_MessageBox.Size = new Size(544, 58);
             TB_MessageBox.TabIndex = 9;
             TB_MessageBox.TextChanged += TB_MessageBox_TextChanged;
+            TB_MessageBox.KeyDown += TB_MessageBox_KeyDown;
             // 
             // BTN_SendMessage
             // 
@@ -143,24 +146,42 @@
             TB_HostAddress.Size = new Size(149, 23);
             TB_HostAddress.TabIndex = 6;
             // 
-            // LBL_Name
+            // LB_connectionStatus
             // 
-            LBL_Name.AutoSize = true;
-            LBL_Name.Enabled = false;
-            LBL_Name.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            LBL_Name.Location = new Point(23, 13);
-            LBL_Name.Name = "LBL_Name";
-            LBL_Name.Size = new Size(45, 19);
-            LBL_Name.TabIndex = 7;
-            LBL_Name.Text = "label3";
-            LBL_Name.Visible = false;
+            LB_connectionStatus.AutoSize = true;
+            LB_connectionStatus.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            LB_connectionStatus.Location = new Point(701, 14);
+            LB_connectionStatus.Name = "LB_connectionStatus";
+            LB_connectionStatus.Size = new Size(63, 15);
+            LB_connectionStatus.TabIndex = 9;
+            LB_connectionStatus.Text = "Connected";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.CadetBlue;
+            label3.Location = new Point(25, 14);
+            label3.Name = "label3";
+            label3.Size = new Size(99, 28);
+            label3.TabIndex = 11;
+            label3.Text = "Username";
+            // 
+            // TB_Username
+            // 
+            TB_Username.Location = new Point(3, 48);
+            TB_Username.Name = "TB_Username";
+            TB_Username.Size = new Size(149, 23);
+            TB_Username.TabIndex = 12;
             // 
             // ClientHomePage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(LBL_Name);
+            Controls.Add(TB_Username);
+            Controls.Add(label3);
+            Controls.Add(LB_connectionStatus);
             Controls.Add(TB_HostAddress);
             Controls.Add(label2);
             Controls.Add(TB_PortNumber);
@@ -187,6 +208,8 @@
         private Button BTN_SendMessage;
         private TextBox TB_MessageBox;
         public TextBox TB_ChatBox;
-        private Label LBL_Name;
+        private Label LB_connectionStatus;
+        private Label label3;
+        private TextBox TB_Username;
     }
 }
